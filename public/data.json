@@ -1,0 +1,92 @@
+{
+  "players": [
+    {
+      "order": 1,
+      "confirmed": true,
+      "id": 1,
+      "team": null,
+      "name": "أنا (ناجي)"
+    },
+    {
+      "order": 2,
+      "confirmed": true,
+      "id": 2,
+      "team": null,
+      "name": "يوسف"
+    },
+    {
+      "order": 3,
+      "confirmed": true,
+      "id": 3,
+      "team": null,
+      "name": "زهران"
+    },
+    {
+      "order": 4,
+      "confirmed": true,
+      "id": 4,
+      "team": null,
+      "name": "حازم"
+    },
+    {
+      "order": 5,
+      "confirmed": true,
+      "id": 5,
+      "team": null,
+      "name": "ياسين"
+    },
+    {
+      "order": 6,
+      "confirmed": true,
+      "id": 6,
+      "team": null,
+      "name": "وجيه"
+    },
+    {
+      "order": 7,
+      "confirmed": true,
+      "id": 7,
+      "team": null,
+      "name": "إسماعيل"
+    },
+    {
+      "order": 8,
+      "confirmed": true,
+      "id": 8,
+      "team": null,
+      "name": "كريم"
+    },
+    {
+      "order": 9,
+      "confirmed": true,
+      "id": 9,
+      "team": null,
+      "name": "يوسف عبدالقادر"
+    },
+    {
+      "order": 10,
+      "confirmed": true,
+      "id": 10,
+      "team": null,
+      "name": "إسلام"
+    },
+    {
+      "order": 11,
+      "confirmed": false,
+      "id": 11,
+      "team": null,
+      "name": "محمد خلاف"
+    }
+  ],
+  "match": {
+    "date": null,
+    "capacity": 10,
+    "fieldName": "",
+    "timezone": "Africa/Cairo",
+    "id": "match-001",
+    "status": "scheduled",
+    "locationUrl": "",
+    "startTime": null,
+    "endTime": null
+  }
+}
