@@ -4,3 +4,4 @@ dist/
 *.local
 .env*
 !.env.example
+docs/github-approval.png
