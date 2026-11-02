@@ -16,7 +16,7 @@
       "confirmed": true,
       "id": 1,
       "team": "A",
-      "name": "أنا (ناجي)"
+      "name": "ناجي"
     },
     {
       "order": 2,
@@ -29,7 +29,7 @@
       "order": 3,
       "confirmed": true,
       "id": 3,
-      "team": "B",
+      "team": "A",
       "name": "زهران"
     },
     {
@@ -58,7 +58,7 @@
       "confirmed": true,
       "id": 7,
       "team": "B",
-      "name": "إسماعيل"
+      "name": "يوسف عمران"
     },
     {
       "order": 8,
@@ -71,7 +71,7 @@
       "order": 9,
       "confirmed": true,
       "id": 9,
-      "team": "A",
+      "team": "B",
       "name": "يوسف عبدالقادر"
     },
     {
