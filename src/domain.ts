@@ -19,7 +19,12 @@ export function validateData(input: unknown): Data {
   ids.add(p.id); orders.add(p.order);
  }
  if (m.date && m.startTime && kickoff(m) === null) return fail();
- return {match:{...m},players:d.players.map(p=>({...p})).sort((a,b)=>a.order-b.order)};
+ if (m.date && m.endTime) {
+  const nextDay=m.startTime && m.endTime <= m.startTime;
+  const endDate=nextDay?new Date(Date.parse(`${m.date}T12:00:00Z`)+86400000).toISOString().slice(0,10):m.date;
+  if(kickoff({date:endDate,startTime:m.endTime})===null)return fail();
+ }
+ return {match:{...m},players:d.players.map(p=>({...p})).sort((a,b)=>a.order-b.order).map((p,i)=>({...p,order:i+1}))};
 }
 export function assignTeam(players: Player[], id: number, team: Team): Player[] { return players.map(p=>p.id===id ? {...p,team:p.confirmed?team:null}:p); }
 export function reorderPlayers(players: Player[], active: number, over: number): Player[] {
