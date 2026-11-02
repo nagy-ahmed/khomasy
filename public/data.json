@@ -1,73 +1,84 @@
 {
+  "match": {
+    "date": "2026-11-04",
+    "capacity": 10,
+    "fieldName": "الكابيتانو",
+    "timezone": "Africa/Cairo",
+    "id": "match-001",
+    "status": "booked",
+    "locationUrl": "",
+    "startTime": "16:00",
+    "endTime": "17:00"
+  },
   "players": [
     {
       "order": 1,
       "confirmed": true,
       "id": 1,
-      "team": null,
+      "team": "A",
       "name": "أنا (ناجي)"
     },
     {
       "order": 2,
       "confirmed": true,
       "id": 2,
-      "team": null,
+      "team": "B",
       "name": "يوسف"
     },
     {
       "order": 3,
       "confirmed": true,
       "id": 3,
-      "team": null,
+      "team": "B",
       "name": "زهران"
     },
     {
       "order": 4,
       "confirmed": true,
       "id": 4,
-      "team": null,
+      "team": "A",
       "name": "حازم"
     },
     {
       "order": 5,
       "confirmed": true,
       "id": 5,
-      "team": null,
+      "team": "B",
       "name": "ياسين"
     },
     {
       "order": 6,
       "confirmed": true,
       "id": 6,
-      "team": null,
+      "team": "B",
       "name": "وجيه"
     },
     {
       "order": 7,
       "confirmed": true,
       "id": 7,
-      "team": null,
+      "team": "B",
       "name": "إسماعيل"
     },
     {
       "order": 8,
       "confirmed": true,
       "id": 8,
-      "team": null,
+      "team": "A",
       "name": "كريم"
     },
     {
       "order": 9,
       "confirmed": true,
       "id": 9,
-      "team": null,
+      "team": "A",
       "name": "يوسف عبدالقادر"
     },
     {
       "order": 10,
       "confirmed": true,
       "id": 10,
-      "team": null,
+      "team": "A",
       "name": "إسلام"
     },
     {
@@ -77,16 +88,5 @@
       "team": null,
       "name": "محمد خلاف"
     }
-  ],
-  "match": {
-    "date": null,
-    "capacity": 10,
-    "fieldName": "",
-    "timezone": "Africa/Cairo",
-    "id": "match-001",
-    "status": "scheduled",
-    "locationUrl": "",
-    "startTime": null,
-    "endTime": null
-  }
+  ]
 }
