@@ -11,13 +11,14 @@ User brief: public Egyptian Arabic RTL football booking app; React/Vite/TypeScri
 - `.github/workflows/deploy.yml`: test/build/deploy on code changes; JSON-only edits skip deployment because clients read API directly.
 
 ## Implementation sequence
-- [ ] Initialize dependencies; write failing domain tests for exact initial counts, invalid data, assignment safety, random distribution and Cairo conversion.
-- [ ] Implement domain model and GitHub adapter; test Unicode round trip, permission denial, conflicts and preserving drafts.
-- [ ] Build mobile-first charcoal/green dashboard with pitch art, roster, sharing and accessible drag handles. Admin forms remain hidden until GitHub confirms push permission.
-- [ ] Verify tests/build, browser public/mobile interactions and read-only mode. Review security, error and conflict paths.
-- [ ] Create public `nagy-ahmed/khomasy`, commit/push, enable Pages Actions and verify public site and live JSON.
+- [x] Initialize dependencies; write failing domain tests for exact initial counts, invalid data, assignment safety, random distribution and Cairo conversion.
+- [x] Implement domain model and GitHub adapter; test Unicode round trip, permission denial, conflicts and preserving drafts.
+- [x] Build mobile-first charcoal/green dashboard with pitch art, roster, sharing and accessible drag handles. Admin forms remain hidden until GitHub confirms push permission.
+- [x] Verify tests/build, browser public/mobile interactions and read-only mode. Review security, error and conflict paths.
+- [x] Create public `nagy-ahmed/khomasy`, commit/push, enable Pages Actions and verify public site and live JSON.
 
 ## Review focus
 Malformed remote data must never replace valid state. Offline/rate-limited reads retain the last view with warning. Concurrent writes stop on stale SHA. Dirty admin drafts survive refresh polling. Cairo dates obey DST and reject nonexistent wall times. Unconfirmed players cannot be assigned. Tokens never enter persistence, logs or committed files.
 
 Authorization: the supplied request explicitly authorizes independent technical decisions, implementation, repository creation, push and publication. No additional design approval stages are needed.
+
