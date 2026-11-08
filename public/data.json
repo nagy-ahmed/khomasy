@@ -29,49 +29,49 @@
       "order": 3,
       "confirmed": true,
       "id": 5,
-      "team": "B",
+      "team": null,
       "name": "ياسين"
     },
     {
       "order": 4,
-      "confirmed": true,
+      "confirmed": false,
       "id": 3,
-      "team": "A",
+      "team": null,
       "name": "زهران"
     },
     {
       "order": 5,
-      "confirmed": true,
+      "confirmed": false,
       "id": 4,
-      "team": "A",
+      "team": null,
       "name": "حازم"
     },
     {
       "order": 6,
-      "confirmed": true,
-      "id": 7,
-      "team": "B",
-      "name": "يوسف عمران"
-    },
-    {
-      "order": 7,
-      "confirmed": true,
+      "confirmed": false,
       "id": 8,
-      "team": "A",
+      "team": null,
       "name": "كريم"
     },
     {
+      "order": 7,
+      "confirmed": false,
+      "id": 7,
+      "team": null,
+      "name": "يوسف عمران"
+    },
+    {
       "order": 8,
-      "confirmed": true,
+      "confirmed": false,
       "id": 9,
-      "team": "B",
+      "team": null,
       "name": "يوسف عبدالقادر"
     },
     {
       "order": 9,
-      "confirmed": true,
+      "confirmed": false,
       "id": 10,
-      "team": "A",
+      "team": null,
       "name": "إسلام"
     },
     {
