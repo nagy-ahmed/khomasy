@@ -34,21 +34,21 @@
     },
     {
       "order": 4,
-      "confirmed": false,
+      "confirmed": true,
       "id": 3,
       "team": null,
       "name": "زهران"
     },
     {
       "order": 5,
-      "confirmed": false,
+      "confirmed": true,
       "id": 4,
       "team": null,
       "name": "حازم"
     },
     {
       "order": 6,
-      "confirmed": false,
+      "confirmed": true,
       "id": 8,
       "team": null,
       "name": "كريم"
