@@ -63,16 +63,16 @@
     {
       "order": 8,
       "confirmed": false,
-      "id": 7,
+      "id": 10,
       "team": null,
-      "name": "يوسف عمران"
+      "name": "إسلام"
     },
     {
       "order": 9,
       "confirmed": false,
-      "id": 10,
+      "id": 7,
       "team": null,
-      "name": "إسلام"
+      "name": "يوسف عمران"
     },
     {
       "order": 10,
