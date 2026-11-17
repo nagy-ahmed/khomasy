@@ -62,17 +62,17 @@
     },
     {
       "order": 8,
-      "confirmed": false,
+      "confirmed": true,
       "id": 10,
       "team": null,
       "name": "إسلام"
     },
     {
       "order": 9,
-      "confirmed": false,
+      "confirmed": true,
       "id": 9,
       "team": null,
-      "name": "وجيه"
+      "name": "شرويد"
     },
     {
       "order": 10,
