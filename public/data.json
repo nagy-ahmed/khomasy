@@ -51,28 +51,28 @@
       "confirmed": true,
       "id": 8,
       "team": null,
-      "name": "كريم"
+      "name": "خلاف"
     },
     {
       "order": 7,
-      "confirmed": true,
-      "id": 9,
-      "team": null,
-      "name": "يوسف عبدالقادر"
-    },
-    {
-      "order": 8,
       "confirmed": true,
       "id": 7,
       "team": null,
       "name": "يوسف عمران"
     },
     {
-      "order": 9,
+      "order": 8,
       "confirmed": false,
       "id": 10,
       "team": null,
       "name": "إسلام"
+    },
+    {
+      "order": 9,
+      "confirmed": false,
+      "id": 9,
+      "team": null,
+      "name": "يوسف عبدالقادر"
     },
     {
       "order": 10,
