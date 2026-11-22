@@ -55,7 +55,7 @@
     },
     {
       "order": 7,
-      "confirmed": false,
+      "confirmed": true,
       "id": 8,
       "team": null,
       "name": "خلاف"
