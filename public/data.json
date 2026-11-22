@@ -49,27 +49,27 @@
     {
       "order": 6,
       "confirmed": true,
+      "id": 11,
+      "team": null,
+      "name": "كريم"
+    },
+    {
+      "order": 7,
+      "confirmed": false,
       "id": 8,
       "team": null,
       "name": "خلاف"
     },
     {
-      "order": 7,
-      "confirmed": true,
+      "order": 8,
+      "confirmed": false,
       "id": 7,
       "team": null,
       "name": "يوسف عمران"
     },
     {
-      "order": 8,
-      "confirmed": true,
-      "id": 10,
-      "team": null,
-      "name": "إسلام"
-    },
-    {
       "order": 9,
-      "confirmed": true,
+      "confirmed": false,
       "id": 9,
       "team": null,
       "name": "شرويد"
@@ -77,9 +77,9 @@
     {
       "order": 10,
       "confirmed": false,
-      "id": 11,
+      "id": 10,
       "team": null,
-      "name": "اسماعيل"
+      "name": "إسلام"
     }
   ]
 }
